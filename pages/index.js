@@ -11,6 +11,8 @@ import Testimonials from "../components/testimonials";
 import Cta from "../components/cta";
 import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
+import VideoTile from "../components/videotile";
+import Gurus from "../components/gurus";
 
 const Home = () => {
   return (
@@ -26,13 +28,14 @@ const Home = () => {
 
       <Navbar />
       <Hero />
-      <SectionTitle
+      <Gurus />
+      {/* <SectionTitle
         pretitle="Sushumna Kriya Benefits"
         title=" Why should one Meditate">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis dui lacus, 
         eget fermentum tellus placerat non. Pellentesque blandit sed mauris ut facilisis. 
         Pellentesque sit amet varius metus. Fusce sed.
-      </SectionTitle>
+      </SectionTitle> */}
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle
@@ -43,6 +46,7 @@ const Home = () => {
         don&apos;t forget to add one. Just like this.
       </SectionTitle>
       <Video />
+      {/* <VideoTile /> */}
       {/* <SectionTitle
         pretitle="Testimonials"
         title="Here's what our customers said">
@@ -51,8 +55,7 @@ const Home = () => {
       </SectionTitle>
       <Testimonials /> */}
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+      During your Sushumna Kriya Yoga practice, you might have various questions. Below are a few, and for more FAQs, please click here.
       </SectionTitle>
       <Faq />
       <Cta />

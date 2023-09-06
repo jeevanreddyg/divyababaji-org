@@ -35,22 +35,22 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "How to differentiate between sleeping and meditation?",
+    answer: "You can find it through your body /sitting position. If you are still sitting straight means you're meditating, if your body is slouched it means you are sleeping.There is no harm if you are sleeping for a while.(usually happens when one is tired, eaten a heavy meal or not slept properly for few days)..",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "Why should I sit straight or erect?",
+    answer: "The human body consists of 72000 NADIS. Nadi’s are astral tubules. Out of these 72000 Nadi’s there are 3 very important Nadi’s known as IDA, PINGALA and SUSHUMNA. These 3 Nadi’s originates from ROOT CHAKRA ( Mooladhara) and the IDA & PINGALA end at third eye chakra (AJANA) , the SUSHUMNA connects to Crown chakra (SAHASRARA).",
   },
   {
-    question: "What is your refund policy? ",
+    question: "Why 49 minutes?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "Human body consists of 7 chakras, for each chakra 7 minutes of meditation for cleansing and energizing.One need not to be mentally focusing on any chakra. The yoga mudra automatically takes care of it.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "I am unable to concentrate and get disturbed during meditation.",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Repeat the chanting of AUM for 7 or 14 times and deep breathing for 7 times (without opening eyes or mudra).",
   },
 ];
 
