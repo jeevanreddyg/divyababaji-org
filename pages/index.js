@@ -28,6 +28,13 @@ const Home = () => {
 
       <Navbar />
       <Hero />
+      <SectionTitle
+        pretitle="Sushumna Kriya Yoga"
+        title="Guru's">
+        Sushumna Kriya Yoga was transferred to Pujyasri Aathmanandamayi Ammagaru 
+        by Pujyaguru Bhoga Siddar, in the esteemed presence of Mahavatar Babaji, 
+        with the mission of disseminating the knowledge of Happiness.
+      </SectionTitle>
       <Gurus />
       {/* <SectionTitle
         pretitle="Sushumna Kriya Benefits"
@@ -40,12 +47,12 @@ const Home = () => {
       <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle
         pretitle="Watch a video"
-        title="Learn how to fullfil your needs">
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
+        title="Latest Wisdon from Pujyasri Aathmanandamayi">
+        Tune in to the captivating series "Soul Journey," exploring topics such as Sushumna Garbhasanskar and the inner miracles recounted by meditators practicing Sushumna Kriya Yoga. 
       </SectionTitle>
-      <Video />
+      <Video url="https://www.youtube.com/embed/videoseries?si=f5DPbjFhBrGWJHYa&amp;list=PLlsGDh-BGen_ap2jJNJYkKO5hRCzj9kze" />
+      <Video url="https://www.youtube.com/embed/videoseries?si=DW5SMi9n_Kp1QKTz&amp;list=PLlsGDh-BGen8EfLo3N790Jpom7sNjx-dY" />
+      <Video url="https://www.youtube.com/embed/videoseries?si=oBBtmGPCM6DX0cSk&amp;list=PL0GU4EAwOqZv2acOGMjLIi-FX9Xghw9cL"/>
       {/* <VideoTile /> */}
       {/* <SectionTitle
         pretitle="Testimonials"

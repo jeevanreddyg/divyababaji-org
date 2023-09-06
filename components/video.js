@@ -1,11 +1,12 @@
 import { useState } from "react";
 import Container from "./container";
 
-const Video = () => {
+export default function Video(props) {
   const [playVideo, setPlayVideo] = useState(true);
+  console.log(props)
   return (
     <Container>
-      <div className="w-full max-w-4xl mx-auto overflow-hidden lg:mb-20 rounded-2xl ">
+      <div className="w-full max-w-4xl mx-auto overflow-hidden lg:mb-5 rounded-2xl ">
         <div
           onClick={() => setPlayVideo(!playVideo)}
           className="relative bg-red-300 cursor-pointer aspect-w-16 aspect-h-9 bg-gradient-to-tr from-purple-400 to-red-700">
@@ -27,7 +28,7 @@ const Video = () => {
           )}
           {playVideo && (
             <iframe
-              src="https://www.youtube.com/embed/mIyD_ZPbVxs?si=-9id3s0VdFIHWelO"
+              src={props.url}
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -38,5 +39,3 @@ const Video = () => {
     </Container>
   );
 }
-
-export default Video;
