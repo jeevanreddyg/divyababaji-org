@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Container from "./container";
-import heroImg from "../public/img/hero.png";
+import heroImg from "../public/img/main-hero.png";
 import {
   CalendarDaysIcon, ChevronDoubleRightIcon
 } from "@heroicons/react/24/solid";
@@ -29,7 +29,7 @@ const Hero = () => {
                 Begin Journey
               </a>
               <a
-                href="https://github.com/web3templates/nextly-template/"
+                href="#"
                 target="_blank"
                 rel="noopener"
                 className="flex items-center space-x-2 text-gray-500 dark:text-gray-400">
@@ -62,7 +62,7 @@ const Hero = () => {
 
           <div className="flex flex-wrap mt-5 justify-center">
             <a
-              href="https://github.com/web3templates/nextly-template/"
+              href="#"
               target="_blank"
               rel="noopener"
               className="flex items-center text-gray-500 dark:text-gray-400">
