@@ -106,10 +106,10 @@ const PopupWidget = () => {
               leaveTo="opacity-0 translate-y-5">
               <Disclosure.Panel className=" flex flex-col  overflow-hidden left-0 h-full w-full sm:w-[350px] min-h-[250px] sm:h-[600px] border border-gray-300 dark:border-gray-800 bg-white shadow-2xl rounded-md sm:max-h-[calc(100vh-120px)]">
                 <div className="flex flex-col items-center justify-center h-32 p-5 bg-red-600">
-                  <h3 className="text-lg text-white">How can we help?</h3>
-                  <p className="text-white opacity-50">
-                    We usually respond in a few hours
-                  </p>
+                  <h3 className="text-lg text-white">Learn Sushumna Kriya Meditation</h3>
+                  {/* <p className="text-white opacity-50">
+                    Our Vounteer is in touche with you
+                  </p> */}
                 </div>
                 <div className="flex-grow h-full p-6 overflow-auto bg-gray-50 ">
                   {!isSubmitSuccessful && (
@@ -144,7 +144,7 @@ const PopupWidget = () => {
                         <input
                           type="text"
                           id="full_name"
-                          placeholder="John Doe"
+                          placeholder="Your Name"
                           {...register("name", {
                             required: "Full name is required",
                             maxLength: 80,
@@ -246,7 +246,7 @@ const PopupWidget = () => {
                           )}
                         </button>
                       </div>
-                      <p
+                      {/* <p
                         className="text-xs text-center text-gray-400"
                         id="result">
                         <span>
@@ -259,7 +259,7 @@ const PopupWidget = () => {
                             Web3Forms
                           </a>
                         </span>
-                      </p>
+                      </p> */}
                     </form>
                   )}
 
